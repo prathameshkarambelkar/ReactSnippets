@@ -7,9 +7,8 @@ import Projects from "./components/Projects";
 const Port = () => {
   return (
     <>
-    
-    <Heeeder />
-    {/* <div className="flex bg-gray-900 justify-between">
+      <Heeeder />
+      {/* <div className="flex bg-gray-900 justify-between">
             <h1 className="text-white text-2xl font-mono p-6">Prathamesh Karambelkar</h1>
             <div className="flex">
               <h1 className="p-6 text-white py-6 px-4 text-2xl">About</h1>
@@ -44,8 +43,7 @@ const Port = () => {
       </div> */}
       <div>
         <header class="flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover bg-[url('/src/assets/AboutMeSmall.png')]  md:bg-[url('/src/assets/AboutMe1.png')]">
-          
-          <div className=" flex justify-center ">
+          {/* <div className=" flex justify-center ">
             <div className="flex flex-col items-center">
               <h1 className="mb-2  p-6  font-mono text-xl text-gray-100 md:text-2xl">
                 Hi, <br className="block md:hidden" />
@@ -62,6 +60,20 @@ const Port = () => {
                 <br></br>
               </h1>
             </div>
+          </div> */}
+          <div class="writer inline-block">
+            <div class="writer-text  flex   overflow-hidden border-r-4 text-white ">
+              <h1 className="text-center">Hello, I'm Prathamesh</h1>
+              
+              {/* <img
+                width={50}
+                height={50}
+                src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Hi.gif"
+              /> */}
+            </div>
+          </div>
+          <div className="text-white text-4xl font-poppins font-mono">
+          <p className="font-bold">Android & Front-end Web Developer</p>
           </div>
         </header>
 
@@ -85,13 +97,7 @@ const Port = () => {
         </section>
       </div>
 
-      <div>
-        {/* <div class="writer inline-block">
-          <div class="writer-text inline-block overflow-hidden border-r-4 ">
-            Happy to contribute
-          </div>
-        </div> */}
-      </div>
+      <div></div>
     </>
   );
 };
