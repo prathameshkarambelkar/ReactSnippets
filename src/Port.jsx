@@ -8,6 +8,9 @@ const Port = () => {
   return (
     <>
       <Heeeder />
+      <section class="container flex items-center justify-center h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/src/assets/HomeSmall.png')] lg:bg-[url('/src/assets/Home.png')] md:bg-[url('/src/assets/Home.png')] ">
+          <h1 className="text-white text-3xl text-">Home</h1>
+        </section>
       {/* <div className="flex bg-gray-900 justify-between">
             <h1 className="text-white text-2xl font-mono p-6">Prathamesh Karambelkar</h1>
             <div className="flex">
@@ -85,7 +88,7 @@ const Port = () => {
           </p>
         </header>
 
-        <section className="lg:flex-row sm:flex  sm:flex-col sm:items-center sm:justify-center  sm:m-auto  bg-fixed bg-center bg-cover md:bg-[url('/src/assets/Projects.png')]  bg-[url('/src/assets/ProjectsSmall.png')] ">
+        <section id="Projects" className="lg:flex-row sm:flex  sm:flex-col sm:items-center sm:justify-center  sm:m-auto  bg-fixed bg-center bg-cover md:bg-[url('/src/assets/Projects.png')]  bg-[url('/src/assets/ProjectsSmall.png')] ">
           <Projects
             name={"Demo Project"}
             technology={["ReactJs", "Tailwind Css", "Vite"]}

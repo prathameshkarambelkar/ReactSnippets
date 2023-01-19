@@ -57,7 +57,7 @@ export default function Heeeder() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Home</a>
+                <a href="#">Home</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
                 <a href="javascript:void(0)">About Me</a>
@@ -66,7 +66,7 @@ export default function Heeeder() {
                 <a href="javascript:void(0)">Skills</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="javascript:void(0)">Projects</a>
+                <a href="#Projects">Projects</a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
                 <a href="javascript:void(0)">Talks</a>
