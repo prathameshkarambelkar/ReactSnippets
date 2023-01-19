@@ -61,10 +61,17 @@ const Port = () => {
               </h1>
             </div>
           </div> */}
+          <img
+            className="rounded-full"
+            alt="Profile Pic"
+            width={200}
+            height={200}
+            src="/src/assets/ProfilePic.jpeg"
+          />
           <div class="writer inline-block">
-            <div class="writer-text  flex   overflow-hidden border-r-4 text-white ">
-              <h1 className="text-center">Hello, I'm Prathamesh</h1>
-              
+            <div class="writer-text mt-4  flex overflow-hidden border-r-4 text-white ">
+              <h1 className="text-center text-md">Hello 👋🏻, I'm Prathamesh,</h1>
+
               {/* <img
                 width={50}
                 height={50}
@@ -72,9 +79,10 @@ const Port = () => {
               /> */}
             </div>
           </div>
-          <div className="text-white text-4xl font-poppins font-mono">
-          <p className="font-bold">Android & Front-end Web Developer</p>
-          </div>
+
+          <p className=" text-white text-2xl text-center font-poppins font-monofont-bold">
+            Android & Front-end Web Developer
+          </p>
         </header>
 
         <section className="lg:flex-row sm:flex  sm:flex-col sm:items-center sm:justify-center  sm:m-auto  bg-fixed bg-center bg-cover md:bg-[url('/src/assets/Projects.png')]  bg-[url('/src/assets/ProjectsSmall.png')] ">
